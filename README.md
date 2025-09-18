@@ -1,4 +1,4 @@
-# Satellite Visual Search & Detection System
+# Few-Shot Prototype-Based Visual Search & Detection for Satellite Imagery
 
 ![Few-Shot Learning](https://img.shields.io/badge/Few--Shot%20Learning-blue)
 ![ResNet50](https://img.shields.io/badge/ResNet--50-orange)
