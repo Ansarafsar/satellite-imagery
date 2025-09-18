@@ -15,6 +15,17 @@ This system implements a **metric-based few-shot learning approach** that enable
 3. **Performs Feature Matching**: Compares embeddings from target image windows to class prototypes using cosine similarity
 4. **Implements Metric Learning**: Learns a similarity metric in embedding space rather than raw pixel space
 
+
+### 🛠️ Key Features
+Few-Shot Object Detection: Detect objects with only 1-5 reference images per class
+Multi-Scale Search: Comprehensive search across 10 different scales (0.4× to 2.4×)
+Advanced Preprocessing: LAB color space conversion and CLAHE enhancement
+Feature Vector Matching: Cosine similarity-based detection with custom normalization
+Visual Output Generation: Automatic visualization of detection results
+Multi-Object Support: Simultaneously detect multiple object classes
+Non-Maximum Suppression: Eliminate duplicate detections with improved IoU threshold
+CSV Export: Structured output of all detections with similarity scores
+
 ### Technical Architecture
 (Visible in Dark Theme, coz mermaid doesn't support color switching)
 
@@ -39,3 +50,4 @@ graph TD
     class J output;
 
 ```
+
