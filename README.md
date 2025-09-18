@@ -19,21 +19,22 @@ This system implements a **metric-based few-shot learning approach** that enable
 
 ```mermaid
 graph TD
-    A[Reference Chips<br>(1-5 per class)] --> B[Feature Extraction<br>ResNet-50 + Custom Layers]
-    B --> C[Class Prototypes<br>Avg Embeddings]
-    D[Target Satellite Image] --> E[Sliding Window<br>Multi-Scale Search]
-    E --> F[Window Feature Extraction]
-    F --> G[Cosine Similarity<br>Feature Matching]
+    A["Reference Chips\n(1-5 per class)"] --> B["Feature Extraction\nResNet-50 + Custom Layers"]
+    B --> C["Class Prototypes\nAvg Embeddings"]
+    D["Target Satellite Image"] --> E["Sliding Window\nMulti-Scale Search"]
+    E --> F["Window Feature Extraction"]
+    F --> G["Cosine Similarity\nFeature Matching"]
     C --> G
-    G --> H[Threshold Detection]
-    H --> I[NMS Post-Processing]
-    I --> J[Visual Output + CSV]
-    
+    G --> H["Threshold Detection"]
+    H --> I["NMS Post-Processing"]
+    I --> J["Visual Output + CSV"]
+
     classDef process fill:#f9f,stroke:#333,stroke-width:2px;
     classDef data fill:#bbf,stroke:#333,stroke-width:2px;
     classDef output fill:#bfb,stroke:#333,stroke-width:2px;
-    
+
     class A,D data;
     class B,C,E,F,G,H,I process;
     class J output;
+
 ```
