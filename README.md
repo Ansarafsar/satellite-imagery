@@ -2,7 +2,7 @@
 
 ![Few-Shot Learning](https://img.shields.io/badge/Few--Shot%20Learning-blue)
 ![ResNet50](https://img.shields.io/badge/ResNet--50-orange)
-![Satellite Vision](https://img.shields.io/badge/Satellite%20Vision-brightgreen)
+![Computer Vision](https://img.shields.io/badge/Satellite%20Vision-brightgreen)
 
 A cutting-edge few-shot learning system for satellite imagery analysis that combines **ResNet-50 feature extraction**, **vector matching**, and **OpenCV preprocessing** to detect multiple objects with minimal training examples.
 
