@@ -24,9 +24,16 @@ graph TD
     D[Target Satellite Image] --> E[Sliding Window<br>Multi-Scale Search]
     E --> F[Window Feature Extraction]
     F --> G[Cosine Similarity<br>Feature Matching]
+    C --> G
     G --> H[Threshold Detection]
     H --> I[NMS Post-Processing]
     I --> J[Visual Output + CSV]
-    C --> G
-    G --> H
+    
+    classDef process fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef data fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef output fill:#bfb,stroke:#333,stroke-width:2px;
+    
+    class A,D data;
+    class B,C,E,F,G,H,I process;
+    class J output;
 ```
