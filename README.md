@@ -16,6 +16,7 @@ This system implements a **metric-based few-shot learning approach** that enable
 4. **Implements Metric Learning**: Learns a similarity metric in embedding space rather than raw pixel space
 
 ### Technical Architecture
+(Visible in Dark Theme, coz mermaid doesn't support color switching)
 
 ```mermaid
 graph TD
