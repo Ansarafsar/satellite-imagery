@@ -28,4 +28,5 @@ graph TD
     H --> I[NMS Post-Processing]
     I --> J[Visual Output + CSV]
     C --> G
+    G --> H
 ```
