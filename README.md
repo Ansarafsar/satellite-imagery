@@ -29,14 +29,12 @@ graph TD
     H --> I["NMS Post-Processing"]
     I --> J["Visual Output + CSV"]
 
-    classDef process fill:none,stroke:#000,stroke-width:1px,color:#000;
-    classDef data fill:none,stroke:#000,stroke-width:1px,color:#000;
-    classDef output fill:none,stroke:#000,stroke-width:1px,color:#000;
+    classDef process fill:none,stroke:#000,stroke-width:1px,color:#fff;
+    classDef data fill:none,stroke:#000,stroke-width:1px,color:#fff;
+    classDef output fill:none,stroke:#000,stroke-width:1px,color:#fff;
 
     class A,D data;
     class B,C,E,F,G,H,I process;
     class J output;
-
-
 
 ```
